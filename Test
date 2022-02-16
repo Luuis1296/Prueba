@@ -1,0 +1,22 @@
+x = 5+3
+x
+
+y = 6+3
+y
+
+z = 6+3
+z
+
+## Librerías
+
+import pandas as pd
+import datetime
+import os
+import warnings
+warnings.filterwarnings("ignore")
+
+## Carpetas
+
+Fecha = datetime.datetime.utcnow()
+Fecha = Fecha - datetime.timedelta(days=2)
+Fecha = Fecha.strftime('%Y%m%d') 
